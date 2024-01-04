@@ -12,15 +12,8 @@ export default function Home() {
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
-                <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                  src="/next.svg"
-                  alt="Next.js Logo"
-                  width={180}
-                  height={37}
-                  priority
-                />
+                <span className="sr-only">Schoolconvoy</span>
+                <h1 className='text-2xl font-medium'>SchoolConvoy</h1>
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -47,14 +40,7 @@ export default function Home() {
               <div className="flex items-center justify-between">
                 <a href="#" className="-m-1.5 p-1.5">
                   <span className="sr-only">Schoolconvoy</span>
-                  <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/next.svg"
-                    alt="Next.js Logo"
-                    width={180}
-                    height={37}
-                    priority
-                  />
+                  SchoolConvoy
                 </a>
                 <button type="button" className="-m-2.5 rounded-md p-2.5 text-gray-700">
                   <span className="sr-only">Close menu</span>
@@ -66,8 +52,8 @@ export default function Home() {
               <div className="mt-6 flow-root">
                 <div className="-my-6 divide-y divide-gray-500/10">
                   <div className="space-y-2 py-6">
-                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
-                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
+                    <a href="#product" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
+                    <a href="#features" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
                   </div>
                   <div className="py-6">
                     <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Request access</a>
@@ -103,7 +89,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='mx-auto pb-10 sm:pb-20 lg:pb-20 max-w-7xl -my-24'>
+          <div id='product' className='mx-auto pb-10 sm:pb-20 lg:pb-20 max-w-7xl -my-24'>
             <Image
               className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-lg"
               src="/dashboard.jpg"

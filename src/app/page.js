@@ -4,7 +4,7 @@ import CTA from '@/components/cta'
 import Customers from '@/components/customers'
 import Footer from '@/components/footer'
 
-export default function Index() {
+export default function Home() {
   return (
     <main>
       <div className="bg-white">
